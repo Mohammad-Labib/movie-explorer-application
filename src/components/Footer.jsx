@@ -1,11 +1,11 @@
 const Footer = () => {
   return (
-    <footer className="bg-gray-600 text-base-content">
+    <footer className="bg-gray-600 text-white">
       {/* Main Footer */}
       <div className="footer footer-vertical sm:footer-horizontal p-6 md:p-10 gap-8">
         {/* Brand */}
         <aside className="max-w-xs">
-          <div className="text-xl md:text-2xl font-bold">
+          <div className="text-xl md:text-2xl font-bold text-yellow-400">
             Movie Explorer
           </div>
 

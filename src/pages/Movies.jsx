@@ -97,7 +97,7 @@ export default function Movies() {
             >
               <button
                 onClick={() => setSelectedMovie(null)}
-                className="absolute top-3 right-3 font-extrabold text-gray-50 bg-red-400 rounded-full text-2xl p-1 px-2 "
+                className="absolute top-3 right-3 font-extrabold  text-red-600  text-2xl p-1 px-2 "
               >
                 ✕
               </button>

@@ -1,15 +1,15 @@
 const Footer = () => {
   return (
-    <footer className="bg-base-200 text-base-content">
+    <footer className="bg-gray-600 text-base-content">
       {/* Main Footer */}
-      <div className="footer sm:footer-horizontal p-10">
+      <div className="footer footer-vertical sm:footer-horizontal p-6 md:p-10 gap-8">
         {/* Brand */}
-        <aside>
-          <div className="text-2xl font-bold">
-            🎬 Movie Explorer
+        <aside className="max-w-xs">
+          <div className="text-xl md:text-2xl font-bold">
+            Movie Explorer
           </div>
 
-          <p className="max-w-xs">
+          <p className="text-sm md:text-base">
             Discover your favorite movies and TV shows.
             <br />
             Explore, search, and enjoy amazing entertainment.
@@ -76,10 +76,10 @@ const Footer = () => {
         </nav>
 
         {/* Newsletter */}
-        <form>
+        <form className="w-full sm:w-auto">
           <h6 className="footer-title">Newsletter</h6>
 
-          <fieldset className="w-80">
+          <fieldset className="w-full sm:w-80">
             <label className="label mb-2">
               Subscribe for movie updates
             </label>
@@ -103,7 +103,7 @@ const Footer = () => {
       </div>
 
       {/* Copyright */}
-      <div className="border-t border-base-300 text-center py-4">
+      <div className="border-t border-base-300 text-center py-4 px-4">
         <p className="text-sm">
           © 2026 Movie Explorer. All rights reserved.
         </p>

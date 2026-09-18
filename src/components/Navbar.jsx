@@ -60,8 +60,8 @@ const Navbar = () => {
 
       {/* CTA Button */}
       <div className="navbar-end">
-        <a href="/movies" className="btn btn-primary">
-          Browse Movies
+        <a href="/movies" className="btn btn-success text-white">
+           Get Start
         </a>
       </div>
     </div>
